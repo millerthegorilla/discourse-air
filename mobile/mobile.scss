@@ -99,7 +99,7 @@ ol.category-breadcrumb {
 }
 
 .categories-list .list-controls {
-  background: var(--secondary);
+  background: var(--tertiary);
   padding: 0.5em;
   border-radius: 8px;
 }
@@ -108,12 +108,12 @@ ol.category-breadcrumb {
   li.navigation-toggle {
     border-radius: 8px;
     border: none;
-    background-color: var(--secondary);
+    background-color: var(--tertiary);
 
     a:hover,
     a:focus {
       color: var(--primary);
-      background-color: var(--secondary);
+      background-color: var(--tertiary);
     }
   }
 
@@ -246,6 +246,6 @@ ol.category-breadcrumb {
   }
 }
 
-.list-controls .nav-pills .list-control-toggle-link-trigger {
-  color: var(--secondary);
-}
+// .list-controls .nav-pills .list-control-toggle-link-trigger {
+//   color: var(--secondary);
+// }

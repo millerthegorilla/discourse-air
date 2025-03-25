@@ -2,7 +2,7 @@
 .custom-search-banner-wrap {
   margin: 0 auto !important;
   max-width: unset;
-  color: var(--secondary);
+  color: var(--tertiary);
 
   h1 {
     line-height: var(--line-height-small);
@@ -80,7 +80,7 @@
     color: var(--tertiary);
 
     .mobile-view & {
-      color: var(--secondary);
+      color: var(--tertiary);
     }
 
     h1 {
@@ -200,6 +200,7 @@ div.ac-wrap {
 
 .d-header {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  background-color: var(--tertiary);
 }
 
 .d-header-icons .d-icon {
@@ -280,23 +281,23 @@ html {
       linear-gradient(0deg, var(--secondary) 100%, var(--secondary) 100%);
   }
 
-  .background-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    background: linear-gradient(
-      90deg,
-      var(--tertiary-hover) 0%,
-      var(--tertiary) 100%
-    );
-    clip-path: ellipse(148% 70% at 91% -14%);
-  }
+  // .background-container {
+  //   position: fixed;
+  //   top: 0;
+  //   left: 0;
+  //   height: 100vh;
+  //   width: 100vw;
+  //   background: linear-gradient(
+  //     90deg,
+  //     var(--tertiary-hover) 0%,
+  //     var(--tertiary) 100%
+  //   );
+  //   clip-path: ellipse(148% 70% at 91% -14%);
+  // }
 
-  body.no-ember .background-container {
-    display: none;
-  }
+  // body.no-ember .background-container {
+  //   display: none;
+  // }
 }
 
 html body #main-outlet {
@@ -599,10 +600,9 @@ html body #main-outlet {
 }
 
 .published-page {
-  .background-container {
-    display: none;
-  }
-
+  // .background-container {
+  //   display: none;
+  // }
   &::before {
     background: linear-gradient(
       90deg,
